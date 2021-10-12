@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'poppins',sans-serif;
+}
+body{ 
+    font-style: italic;
+       text-align:left;   
+       background-size: cover;
+       background-attachment: fixed;
+       height: 200px;
+       width: 200px;
+       
+       color:azure;
+ }
+ .hope{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    width: 200px;
+
+}
+.hope img{
+  display: flex;
+}
+ 
+ .box{
+     position: relative;
+     top: 50px;
+     left: 30px;
+     transform: translate(-50%,-50%);
+ }
+.box span{
+    width: 50px;
+    height: 40px;
+    border-bottom: 1px wheat;
+    border-bottom: 1px white;
+    transform:rotate(45deg) ;
+    animation: animate 2s infinite;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 20vh;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 50px whitesmoke;
+    left: 20vh;
+    border-radius: 1200px;
+ 
+}
+h2{
+    height: 5vh;
+    text-align: left;
+    left: 0;
+}
+p{
+    text-align: left;
+    width: 50%;
+}
+.drag-area{
+    border: 2px black;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction:column;
+}
+
+h4{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    display: flex;
+}
+p{
+    text-align: left;
+    color:grey;
+    display: contents;
+}
+h3{ left: 0%;
+    text-align: left;
+    
+}
+.drg{
+   position:relative;
+   padding-left: 10vh;
+  
+    
+}
+.drg img{
+    align-items: flex-start;
+     display: flex;
+     height: 200px;
+     width: 200px;
+     left: 0vh;
+ 
+}
